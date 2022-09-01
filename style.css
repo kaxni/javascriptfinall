@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5f6472;
+}
+
+img {
+  width: 300px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+#list {
+  width: 30%;
+  height: 100%;
+  padding-left: 27px;
+}
+
+#result {
+  border-radius: 24px;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+  padding: 45px;
+  margin-right: 28px;
+}
+
+ul li {
+  color: #262736;
+  padding-bottom: 12.5px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.Ship_li {
+  font-size: 24px;
+  cursor: context-menu;
+}
+
+.input-width {
+  width: 230px;
+  margin-bottom: 20px;
+}
+
+#firstLine {
+  font-size: 50px;
+  color: #fff;
+}
+
+#secondLine { 
+  font-size: 16px;
+  color: #979797;
+  margin-bottom: 20px;
+}
+
+#output {
+  color: #fff;
+  font-size: 38px;
+}
+
+.hoverli:hover {
+  background: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.hoverli {
+  width: 60%;
+  font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #979797;
+    list-style-type: none;
+}
